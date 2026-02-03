@@ -70,8 +70,6 @@ python train_MIF.py
 python test.py
 ```
 
-Results will be saved in the `test_result/` directory.（测试结果将保存在 `test_result/` 目录下。）
-
 ## Evaluation Metrics（评估指标）
 
 The following evaluation metrics are used to measure fusion image quality:（本项目使用以下评估指标来衡量融合图像质量：）
@@ -87,10 +85,10 @@ The following evaluation metrics are used to measure fusion image quality:（本
 
 ## Key Features（主要特性）
 
-- 🔷 **Quaternion Convolution（四元数卷积）**: Leverages quaternion representation for multi-channel image processing（利用四元数表示处理多通道图像信息）
-- 🌊 **Wavelet Transform（小波变换）**: Combines wavelet transform for multi-scale feature extraction（结合小波变换进行多尺度特征提取）
-- 🎯 **Bidirectional Adaptive Attention Module (BAAM)（双向自适应注意力模块）**: Effectively fuses features from different modalities（有效融合不同模态特征）
-- 📊 **Multi-Loss Function（多损失函数）**: Optimizes with gradient loss, L1 loss, and SSIM loss（结合梯度损失、L1损失和SSIM损失进行优化）
+- **Quaternion Convolution（四元数卷积）**: Leverages quaternion representation for multi-channel image processing（利用四元数表示处理多通道图像信息）
+- **Wavelet Transform（小波变换）**: Combines wavelet transform for multi-scale feature extraction（结合小波变换进行多尺度特征提取）
+- **Bidirectional Adaptive Attention Module (BAAM)（双向自适应注意力模块）**: Effectively fuses features from different modalities（有效融合不同模态特征）
+- **Multi-Loss Function（多损失函数）**: Optimizes with gradient loss, L1 loss, and SSIM loss（结合梯度损失、L1损失和SSIM损失进行优化）
 
 ## Citation（引用）
 
